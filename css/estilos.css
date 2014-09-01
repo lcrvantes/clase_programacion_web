@@ -1,0 +1,378 @@
+
+@font-face {
+	font-family: 'iconos'; /*Nombre de la famila de fuentes que usaremos, lo podemos cambiar por comodidad*/
+	src:url('../fonts/icomoon.eot?-te20wz');
+	src:url('../fonts/icomoon.eot?#iefix-te20wz') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?-te20wz') format('woff'),
+		url('../fonts/icomoon.ttf?-te20wz') format('truetype'),
+		url('../fonts/icomoon.svg?-te20wz#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.icono_menu:before
+{
+	
+	font-family: "iconos"; 
+	
+	content: "\e602";
+	
+	font-size: 1.7em;
+	
+	position: absolute;
+	left: 15px;
+	
+	top: 18px;
+	
+	color: #2e005e;
+}
+
+	font-family: "iconos";
+	content: "\e600";
+}
+.icono_flecha_abajo:before {
+	font-family: "iconos";
+	content: "\e608";
+}
+
+.icono_lupa:before {
+	font-family: "iconos";
+	content: "\e601";
+	color: #e8e9ea;
+}
+
+.icono_flecha_arriba:before {
+	font-family: "iconos";
+	content: "\e609";
+}
+
+.icono_compartir:before {
+	font-family: "iconos";
+	content: "\e605";
+}
+
+.icono_disco
+{
+	
+	position: relative;
+	
+	display: inline-block;
+	
+	margin-left: 1em;
+}
+
+.icono_disco:before {
+	font-family: "iconos";
+	content: "\e606";
+	position: absolute;
+	left: -20px;
+	top: 2px;
+}
+
+a
+{
+	
+	text-decoration: none;
+}
+body
+{
+	font-size: 16px;
+	font-family: 'Varela', sans-serif;
+}
+header
+{
+	position: relative;
+}
+.division_superior
+{
+	
+	overflow: hidden;
+}
+.division_superior header
+{
+	
+	border-bottom: 1px solid #455F00;
+	overflow: hidden;
+	
+	padding: 0.5em;
+}
+.division_superior header figure
+{
+	display: inline-block;
+	
+	float: right;
+	
+	margin: 0;
+	
+	width: 150px;
+}
+.division_superior header figure img
+{
+	width: 100%;
+	
+	-webkit-transition: 1s all ease;
+}
+
+.division_superior header figure img:hover
+{	
+	-webkit-transition: 1s all ease;
+	
+	-webkit-transform: scale(1.1, 1.1);
+}
+.division_inferior
+{
+	/*Color de fondo*/
+	background-color: #e8e9ea;
+	padding: 0.5em;
+	position: relative;
+}
+.division_inferior .fila_busqueda
+{
+	overflow: hidden;
+}
+.division_inferior .fila_busqueda h2
+{
+	margin: 0;
+	display: inline-block;
+	color: #2e005e;
+}
+.division_inferior .fila_busqueda div
+{
+	display: inline-block;
+	float: right;
+	
+	padding-top: 4px;
+	position: relative;
+}
+.division_inferior .fila_busqueda div a
+{
+	position: absolute;
+	left: 5px;
+	top: 8px;
+}
+.division_inferior .fila_busqueda div input
+{
+	padding-left: 1.5em;
+}
+.division_inferior .portada
+{
+	margin: 1em 0;
+	position: relative;
+	overflow: hidden;
+}
+.division_inferior .portada figure
+{
+	margin: 0;
+	width: 100%;
+}
+.division_inferior .portada figure img
+{
+	width: 100%;
+}
+.division_inferior .portada div
+{
+	height: 60px;
+	width: 100%;
+	position: absolute;
+	
+	bottom: 4px;
+	background-color: black;
+	
+	opacity: 0.7;
+}
+.division_inferior .portada div a
+{
+	color: white;
+	font-size: 2em;
+	display: inline-block;
+	margin-top: 0.4em;
+	margin-left: 2px;
+	
+	text-shadow: 1px 1px 5px white;
+}
+.division_inferior .portada div a:last-child
+{
+	float: right;
+	margin-right: 0.2em;
+}
+.division_inferior .albums
+{
+	
+}
+.division_inferior .albums h3
+{
+	margin: 0;
+	color: #2e005e;
+	border-bottom: 1px solid #bebebe;
+}
+.division_inferior .albums .album
+{
+	padding: 0.5em;
+	border-bottom: 1px solid #bebebe;
+}
+.division_inferior .albums .album .titulo_album
+{
+	display: inline-block;
+}
+.division_inferior .albums .album .titulo_album a
+{
+	color: #5474B5;
+}
+.division_inferior .albums .album .botones
+{
+	display: inline-block;
+	float: right;
+}
+.division_inferior .albums .album .botones a
+{
+	color: #455F00;
+	margin: 0 0.3em;
+	
+}
+nav
+{
+	width: 350px;
+	background-color: #e8e9ea;
+	position: absolute;
+	
+	z-index: 2;
+	
+	height: 100%;
+	opacity: 0.9;
+	left: -350px;
+}
+nav ul
+{
+	margin: 0;
+	padding: 0;
+}
+nav ul li a
+{
+	text-transform: uppercase;
+	padding: 0.5em 6em 0.5em 0.5em;
+	display: block;
+	
+	letter-spacing: 2px;
+	font-weight: bold;
+	position: relative;
+	
+}
+nav ul li a:hover
+{
+	background-color: #2e005e;
+	color: white;
+}
+nav ul li a:after
+{
+	font-family: 'iconos';
+	content: "\e60a";
+	position: absolute;
+	right: 0;
+	top: 10px;
+}
+.titulo_derecha
+{
+	margin: 0;
+	display: none;
+}
+.division_inferior .albums .album:nth-child(odd)
+{
+	background-color: white;
+}
+
+@media screen and (min-width: 900px) {
+	.titulo_derecha
+	{
+		display: block;
+	}
+	body
+	{
+		background-color: #e8e9ea;
+	}
+	.icono_menu
+	{
+		display: none;
+	}
+	.division_superior header figure
+	{
+		float: left;
+	}
+	.division_superior
+	{
+		background-color: white;
+	}
+	.division_superior header
+	{
+		/*Permite que el elemento pueda tener solo un tamaño maximo de 1024px*/
+		max-width: 1024px;
+		margin: 0 auto;
+	}
+	.division_inferior
+	{
+		position: relative;
+		max-width: 1024px;
+		margin: 0 auto;
+	}
+	.division_inferior .fila_busqueda
+	{
+		position: absolute;
+		right: 10px;
+		top: -60px;
+	}
+	.division_inferior .fila_busqueda h2
+	{
+		display: none;
+	}
+	nav
+	{
+		display: block;
+		font-size: 0;
+		height: 50px;
+		left: 0;
+		width: 100%; 
+	}
+	nav ul li
+	{
+		display: inline-block;
+	}
+	nav ul li a
+	{
+		/*Permite convertir el texto a mayusculas*/
+		text-transform: uppercase;
+		display: block;
+		padding: 0.5em;
+		font-size: 16px;
+		color: #455F00;
+		border-top: 4px solid transparent;
+	}
+	nav ul li a:hover
+	{
+		border-top: 4px solid #455F00;
+		background-color: transparent;
+		color: #455F00;
+	}
+	nav ul li a:after
+	{
+		display: none;
+	}
+	.division_inferior
+	{
+		padding-top: 0;
+	}
+	.division_inferior .portada
+	{
+		width: 400px;
+		margin: 50px 1em 0 1em;
+		display: inline-block;
+	}
+	.division_inferior .albums
+	{
+		display: inline-block;
+		width: 400px;
+		margin: 50px 2em 0 2em;
+		
+		vertical-align: top;
+		border-left: 1px solid #455F00;
+		padding-left: 2em;
+	}
+}

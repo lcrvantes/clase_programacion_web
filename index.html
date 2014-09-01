@@ -1,114 +1,146 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 <head>
+	
 	<meta charset="UTF-8">
-	<title>Ejemplo de Página Web</title>
+	
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/estilo.css">
+	
+	<title>Esta es mi primera pagina</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	
 	<link href='http://fonts.googleapis.com/css?family=Varela' rel='stylesheet' type='text/css'>
 	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 </head>
-<body>
-
+	<body>
+		
 	<div class="division_superior">
+		
 		<header>
-			<a href="#">*</a>
+			
+			<a href="#" class="icono_menu"></a> 	
+				
 			<figure>
-				<img src="img/logo.png" alt="">
+				
+				<img src="img/logo.png">
 			</figure>
-		</header>
+		</header>   
 	</div>
-
+			
 	<div class="division_inferior">
+		
 		<nav>
+			
 			<ul>
+				
 				<li><a href="#">Albums</a></li>
-				<li><a href="#">Top Hits</a></li>
+				<li><a href="#">Tops Hits</a></li>
 				<li><a href="#">Favoritos</a></li>
 				<li><a href="#">Perfil</a></li>
-				<li><a href="#">Configuración</a></li>
+				<li><a href="#">Configuracion</a></li>
 			</ul>
 		</nav>
+
+		<div class="fila_busqueda">
+			
+			<h2>Pharell Williams</h2>
+			<div>
+				<a href="#" class="icono_lupa"></a>
+					
+				<input type="text">
+			</div>
+		</div>
+
+			
+		<section class="portada">
+			<figure>
+				<img src="img/artist.jpg" alt="">
+			</figure>
+			<div>
+				<a href="#" class="icono_flecha_arriba"></a>
+				<a href="#" class="icono_flecha_abajo"></a>
+				<a href="#" class="icono_compartir"></a>
+			</div>
+		</section>
+
+
+
+		<section class="albums">
+			<h2 class="titulo_derecha">
+				Pharell Williams
+			</h2>
+			<h3>Albums</h3>
+			<article class="album">
+				<div class="titulo_album">
+				<a href="#" class="icono_disco">Frontin
+					</a>
+				</div>
+				<div class="botones">
+					<a href="#" class="icono_flecha_arriba"></a>
+					<a href="#" class="icono_flecha_abajo"></a>
+					<a href="#" class="icono_escuchar"></a>
+					<a href="#" class="icono_compartir"></a>
+				</div>
+			</article>
+			<article class="album">
+				<div class="titulo_album">
+				<a href="#" class="icono_disco">Whatsapp
+					</a>
+				</div>
+				<div class="botones">
+					<a href="#" class="icono_flecha_arriba"></a>
+					<a href="#" class="icono_flecha_abajo"></a>
+					<a href="#" class="icono_escuchar"></a>
+					<a href="#" class="icono_compartir"></a>
+				</div>
+			</article>
+			<article class="album">
+				<div class="titulo_album">
+				<a href="#" class="icono_disco">Everywhere
+					</a>
+				</div>
+				<div class="botones">
+					<a href="#" class="icono_flecha_arriba"></a>
+					<a href="#" class="icono_flecha_abajo"></a>
+					<a href="#" class="icono_escuchar"></a>
+					<a href="#" class="icono_compartir"></a>
+				</div>
+			</article>
+			<article class="album">
+				<div class="titulo_album">
+				<a href="#" class="icono_disco">Hender
+					</a>
+				</div>
+				<div class="botones">
+					<a href="#" class="icono_flecha_arriba"></a>
+					<a href="#" class="icono_flecha_abajo"></a>
+					<a href="#" class="icono_escuchar"></a>
+					<a href="#" class="icono_compartir"></a>
+				</div>
+			</article>
+			<article class="album">
+				<div class="titulo_album">
+				<a href="#" class="icono_disco">Thank you
+					</a>
+				</div>
+				<div class="botones">
+					<a href="#" class="icono_flecha_arriba"></a>
+					<a href="#" class="icono_flecha_abajo"></a>
+					<a href="#" class="icono_escuchar"></a>
+					<a href="#" class="icono_compartir"></a>
+				</div>
+			</article>
+
+		</section>
+
+
 	</div>
 
-	<div class="fila_busqueda">
-		<h2>Pharell Williams</h2>
-		<div>
-			<a href="#">*</a>
-			<input type="text">
-		</div>
-	</div>
 
-	<section class="portada">
-		<figure>
-			<img src="img/artist.jpg" alt="">
-		</figure>
-		<div>
-			<a href="#"></a>
-			<a href="#"></a>
-			<a href="#"></a>
-		</div>
-	</section>
+<!-- <script src="js/app.js"></script> -->
 
-	<section class="albums">
-		<h2 class="titulo_derecha">Pharell Williams</h2>
-		<h3>Albums</h3>
-		<article class="album">
-			<div class="titulo_album">
-				<a href="#">Frontin</a>
-			</div>
-			<div class="botones">
-				<a href="#">*</a>
-				<a href="#">*</a>
-				<a href="#">*</a>
-				<a href="#">*</a>
-			</div>
-		</article>
-		<article class="album">
-			<div class="titulo_album">
-				<a href="#">Whatsapp</a>
-			</div>
-			<div class="botones">
-				<a href="#">*</a>
-				<a href="#">*</a>
-				<a href="#">*</a>
-				<a href="#">*</a>
-			</div>
-		</article>
-		<article class="album">
-			<div class="titulo_album">
-				<a href="#">Eveywhere</a>
-			</div>
-			<div class="botones">
-				<a href="#">*</a>
-				<a href="#">*</a>
-				<a href="#">*</a>
-				<a href="#">*</a>
-			</div>
-		</article>
-		<article class="album">
-			<div class="titulo_album">
-				<a href="#">Hender</a>
-			</div>
-			<div class="botones">
-				<a href="#">*</a>
-				<a href="#">*</a>
-				<a href="#">*</a>
-				<a href="#">*</a>
-			</div>
-		</article>
-		<article class="album">
-			<div class="titulo_album">
-				<a href="#">Thank you</a>
-			</div>
-			<div class="botones">
-				<a href="#">*</a>
-				<a href="#">*</a>
-				<a href="#">*</a>
-				<a href="#">*</a>
-			</div>
-		</article>
-	</section>
 </body>
 </html>
